@@ -17,11 +17,9 @@
 
 		<div class="side">
 			<div class="block">
-				<h3>Sidebar Header</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur id asperiores perspiciatis nobis maiores dicta, eveniet maxime explicabo ipsa vel soluta expedita, error! Fuga, aliquid iure?
-				</p>
-				<a href="#" class="button">More</a>
+				<?php if(is_active_sidebar('widget-1')): ?>
+					<?php dynamic_sidebar('widget-1'); ?>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>

@@ -174,6 +174,31 @@ article.post .post-image img
 	height: auto;
 }
 
+article.post-aside small
+{
+	font-weight: bold;
+}
+
+article.post-aside .well
+{
+	background-color: #e0eefc;
+	padding: 10px;
+}
+
+article.post-link .well
+{
+	background-color: #f4f4f4;
+	padding: 10px;
+}
+
+article.post-gallery 
+{
+	background-color: #333;
+	color: #fff;
+	padding: 5px 10px;
+	margin-top: 5px;
+}
+
 .button
 {
 	background: #009acd;
@@ -234,4 +259,35 @@ footer.main-footer a
 {
 	margin: 0;
 	padding: 0;
+}
+
+.sub-nav ul
+{
+	float: right;
+}
+
+.sub-nav .parent-link
+{
+	font-weight: bold;
+	color: #000;
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #009acd;
+}
+
+.sub-nav .parent-link a
+{
+	font-weight: bold;
+	color: #000;
+}
+
+.sub-nav .current_page_item
+{
+	font-weight: bold;
+}
+
+.clr
+{
+	clear: both;
 }

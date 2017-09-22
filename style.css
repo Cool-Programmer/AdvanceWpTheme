@@ -222,3 +222,16 @@ footer.main-footer a
 	text-decoration: none;
 	color: #fff
 }
+
+.archive-post
+{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.archive-post h2, .archive-post p
+{
+	margin: 0;
+	padding: 0;
+}
